@@ -24,5 +24,7 @@ Up/Down to select, Enter to confirm, ESC to cancel. Return code is number of men
 
 `winwait [--application-name=...] [--command-line=...] [--current-directory=...] [--class-name=...] [--window-name=...]`
 
+`--window-name` supports wildcards.
+
 If `--class-name=` or `--window-name` exists, program will search for top window corresponding to these information. Or will search using process id.
 
